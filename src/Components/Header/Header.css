@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    border-bottom: 1px solid var(--detalhes);
+}
+
+.list{
+    list-style: none;
+}
+
+.list-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90vw;
+    margin: 1.3rem 0;
+}
+
+.list-link > a{
+    text-decoration: none;
+}
+
+#btn-link{
+    color: var(--principal);
+    text-transform:uppercase;
+}
+
+
+

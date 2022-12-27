@@ -1,0 +1,38 @@
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--principal);
+}
+
+.span-titulo{
+    color: var(--secundaria);
+}
+
+.subtitulo{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #4d4d4d;
+}
+
+.inicio-txt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    color: var(--principal);
+}
+
+.texto{
+    margin: 1rem 0;
+    font-weight: 400;
+}
+
+.span-texto{
+    font-weight: 700;
+}
