@@ -1,0 +1,7 @@
+@media only screen and (min-width: 900px) {
+    .projeto-lista{
+        display: grid;
+        place-items: center;
+        grid-template-columns: 2fr 2fr;
+    }
+}

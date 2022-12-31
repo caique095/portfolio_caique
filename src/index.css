@@ -20,7 +20,9 @@ code {
   --principal: #040f0f;
   --principal-hover: #2d3a3a;
   --secundaria: #2ba84a;
-  --secundaria-hover: #248232;
+  --secundaria-hover: #30913e;
   --bg-color: #fcfffc;
+  --bg-card-of: #f1f3f1;
+  --bg-card: #f5f8f5;
   --detalhes: #d4d4d4;
 }
