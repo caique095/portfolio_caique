@@ -31,8 +31,8 @@ export default function ProjetoLista(props: Props) {
                 <div className="">
                     <Projetos key={item.title} {...item} />
                 </div>
-            ))};
+            ))}
         </section>
         </Container>
     )
-};
+}

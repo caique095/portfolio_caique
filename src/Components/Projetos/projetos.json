@@ -3,24 +3,24 @@
         "title": "Projeto Um",
         "description": "Projeto realizada em parceria com meu amorzinho e a gente se ama demais.",
         "subtitle": "UI/UX Design",
-        "srcImg": "/IMG/projeto_xyz.png"
+        "srcImg": "/IMG/1280x720.png"
     },
     {
         "title": "Projeto Dois",
         "description": "Naninho e Homem aranha se aventuraram demais para a realização desse projeto.",
         "subtitle": "UI/UX Design",
-        "srcImg": "/IMG/projeto_dois.png"
+        "srcImg": "/IMG/1280x720_mobile.png"
     },
     {
         "title": "Projeto Três",
         "description": "Naninho e Homem aranha se aventuraram demais para a realização desse projeto.",
         "subtitle": "UI/UX Design",
-        "srcImg": "/IMG/projeto_xyz.png"
+        "srcImg": "/IMG/1280x720.png"
     },
     {
         "title": "Projeto Quatro",
         "description": "Naninho e Homem aranha se aventuraram demais para a realização desse projeto.",
         "subtitle": "UI/UX Design",
-        "srcImg": "/IMG/projeto_xyz.png"
+        "srcImg": "/IMG/1280x720_mobile.png"
     }
 ]
