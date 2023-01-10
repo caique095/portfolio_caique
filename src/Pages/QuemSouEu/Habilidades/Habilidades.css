@@ -1,0 +1,27 @@
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habilidades-card:hover{
+    transform: scale(1.1);
+    transition: ease .2s;
+}
+
+.habilidades-card-titulo{
+    font-size: 1rem;
+    color: var(--titulo-card-habilidades);
+}
+
+.habilidades-icon{
+    height: 6.5rem;
+    position: relative;
+}
+
+@media only screen and (min-width:900px){
+    .habilidades-icon{
+        height: 14rem;
+    }
+
+}

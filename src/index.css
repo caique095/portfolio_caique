@@ -11,10 +11,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 :root{
   --principal: #040f0f;
@@ -25,4 +21,5 @@ code {
   --bg-card-of: #f1f3f1;
   --bg-card: #f5f8f5;
   --detalhes: #d4d4d4;
+  --titulo-card-habilidades: #838383;
 }

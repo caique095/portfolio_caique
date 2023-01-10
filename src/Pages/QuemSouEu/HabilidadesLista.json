@@ -1,0 +1,42 @@
+[
+    {
+        "title": "HTML 5",
+        "srcImg": "/IMG/HABILIDADES/html5.svg"
+    },
+    {
+        "title": "CSS 3",
+        "srcImg": "/IMG/HABILIDADES/css3.svg"
+    },
+    {
+        "title": "JavaScript",
+        "srcImg": "/IMG/HABILIDADES/javascript.svg"
+    },
+    {
+        "title": "React.js",
+        "srcImg": "/IMG/HABILIDADES/react.svg"
+    },
+    {
+        "title": "TypesScript",
+        "srcImg": "/IMG/HABILIDADES/typescript.svg"
+    },
+    {
+        "title": "Bootstrap",
+        "srcImg": "/IMG/HABILIDADES/bootstrap.svg"
+    },
+    {
+        "title": "Tailwind",
+        "srcImg": "/IMG/HABILIDADES/tailwind.svg"
+    },
+    {
+        "title": "Material UI",
+        "srcImg": "/IMG/HABILIDADES/material-ui.svg"
+    },
+    {
+        "title": "Git",
+        "srcImg": "/IMG/HABILIDADES/git.svg"
+    },
+    {
+        "title": "GitHub",
+        "srcImg": "/IMG/HABILIDADES/github.svg"
+    }
+]

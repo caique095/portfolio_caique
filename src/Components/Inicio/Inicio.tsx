@@ -7,7 +7,7 @@ import { Button, Container } from '@mui/material';
 export default function Inicio() {
     return (
         <Container>
-            <section className="inicio">
+            <section className="inicio" id="inicio">
                 <aside>
                     <img 
                         src="IMG/foto_inicio.png"

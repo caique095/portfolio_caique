@@ -13,9 +13,6 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 
-
-
-
 // JSON
 import projetos from './projetos.json';
 
@@ -72,7 +69,7 @@ type Props = typeof projetos[0];
 
 
 
-// ===== Componente =====
+// ===== Component =====
 
 
 export default function Projetos(props: Props) {
@@ -80,7 +77,7 @@ export default function Projetos(props: Props) {
 
     return(
 
-          <section className="card">
+          <section className="card" id="Projetos">
             <article className="card-campo_texto">
               <h1 className="card-titulo">{title}</h1>
               <p className="card-texto">{subtitle}</p>
