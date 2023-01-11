@@ -1,0 +1,60 @@
+.contato-campo-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.contato-campo-texto_identificacao{
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-campo-texto_nome, .contato-campo-texto_email, .contato-campo-texto_mensagem{
+    margin-bottom: 2rem !important;
+}
+
+#contato-btn{
+    background-color: var(--secundaria);
+    border-radius: 0;
+    padding: .7rem;
+    margin-bottom: 3rem;
+}
+
+.oi{
+    color: var(--bg-color) !important;
+    
+}
+
+@media only screen and (min-width: 700px) {
+    #contato-btn{
+        width: 20% !important;
+    }
+}
+
+
+@media only screen and (min-width: 900px) {
+
+    .contato-campo-texto{
+        align-items:center;
+        width: 100%;
+    }
+
+    .contato-campo-texto_nome, .contato-campo-texto_email, .contato-campo-texto_mensagem{
+        margin: 1rem !important;
+        width: 50%;
+    }
+
+    #contato-btn{
+        width: 12%;
+        margin-top: 1rem;
+    }
+
+}
+
+
+
+
+
+
+
