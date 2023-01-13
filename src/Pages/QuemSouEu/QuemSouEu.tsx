@@ -18,6 +18,7 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Slide from '@mui/material/Slide';
 import { TransitionProps } from '@mui/material/transitions';
+import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
 
 // JSON
 import lista from './HabilidadesLista.json';
@@ -50,7 +51,7 @@ export default function FullScreenDialog(props: Props) {
 
   return (
     <div>
-      <Button id="btn-link" onClick={handleClickOpen}>
+      <Button endIcon={<EmojiPeopleIcon/>} id="btn-link-sobre_mim" onClick={handleClickOpen}>
         Quem sou eu?
       </Button>
       <Dialog

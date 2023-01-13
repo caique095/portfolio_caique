@@ -14,17 +14,66 @@
     margin-bottom: 2rem !important;
 }
 
-#contato-btn{
-    background-color: var(--secundaria);
-    border-radius: 0;
-    padding: .7rem;
-    margin-bottom: 3rem;
-}
 
-.oi{
-    color: var(--bg-color) !important;
-    
-}
+#btn-contato {
+    font-family: inherit;
+    font-size: 1.1rem;
+    background: var(--secundaria);
+    color: var(--bg-color);
+    padding: 0.6em 1em;
+    padding-left: 1.7em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: .2rem;
+    overflow: hidden;
+    transition: all 0.2s;
+    width: 16rem;
+    margin: 1rem 0 2rem 0;
+  }
+  
+  #btn-contato span {
+    display: block;
+    margin-left: .4em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #btn-contato svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #btn-contato:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+  }
+  
+  #btn-contato:hover svg {
+    transform: translateX(4.9em) rotate(45deg) scale(1.1);
+  }
+  
+  #btn-contato:hover span {
+    transform: translateX(20em);
+  }
+  
+  #btn-contato:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes fly-1 {
+    from {
+      transform: translateY(0.1em);
+    }
+  
+    to {
+      transform: translateY(-0.1em);
+    }
+  }
+  
+  
+
+
+/* ===== MEDIA QUERY ===== */
 
 @media only screen and (min-width: 700px) {
     #contato-btn{
@@ -45,12 +94,10 @@
         width: 50%;
     }
 
-    #contato-btn{
-        width: 12%;
-        margin-top: 1rem;
-    }
-
 }
+
+
+
 
 
 

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;900&display=swap');
+
 
 *{
   margin: 0;
@@ -8,7 +10,7 @@
 
 body {
   background-color: var(--bg-color);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'League Spartan', sans-serif;
 }
 
 
@@ -22,4 +24,6 @@ body {
   --bg-card: #f5f8f5;
   --detalhes: #d4d4d4;
   --titulo-card-habilidades: #838383;
+  --subtitulo: #4d4d4d;
+  --border: border-radius: .2rem;
 }
