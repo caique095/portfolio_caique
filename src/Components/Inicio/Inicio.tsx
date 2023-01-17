@@ -10,17 +10,35 @@ import * as ReactScroll from 'react-scroll';
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 
+
 export default function Inicio() {
     return (
         <Container>
             <section className="inicio" id="inicio">
-                <aside>
-                    <img 
-                        src="IMG/foto_inicio.png"
-                        className="foto-inicio"
-                    />
-                </aside>
+
                 
+<div className="area" >
+            <ul className="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+
+
+                <aside className="foto-inicio_mobile-container">
+                        <img 
+                            src="IMG/foto_inicio.png"
+                            className="foto-inicio"
+                        />
+                    </aside>
                 <article className="inicio-txt">
                     <span className="titulo"> Olá, meu nome é <span className="span-titulo">Caíque.</span> 🤘🏼</span>
                     <span className="texto">Sou <span className="span-texto">desenvolvedor front-end</span> e estou constantemente aprendendo e praticando, gosto de produzir softwares bonitos e extremamente práticos.</span>
