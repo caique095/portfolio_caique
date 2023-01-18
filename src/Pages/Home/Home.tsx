@@ -18,7 +18,6 @@ export default function Home() {
     const [title, setTitle] = useState("");
     const [description, setDescription] = useState("");
     const [srcImg, setSrcImg] = useState("");
-    const [subtitle, setSubtitle] = useState("");
 
     return(
         <div className="App">

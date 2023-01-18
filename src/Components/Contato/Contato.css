@@ -78,13 +78,6 @@
 /* ===== MEDIA QUERY ===== */
 
 @media only screen and (min-width: 700px) {
-    #contato-btn{
-        width: 20% !important;
-    }
-}
-
-
-@media only screen and (min-width: 900px) {
 
     .contato-campo-texto{
         align-items:center;
@@ -96,6 +89,9 @@
         width: 50%;
     }
 
+    #contato-btn{
+      width: 20% !important;
+  }
 }
 
 

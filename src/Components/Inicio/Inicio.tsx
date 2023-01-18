@@ -14,24 +14,22 @@ import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } f
 export default function Inicio() {
     return (
         <Container>
+            <div className="area" >
+                <ul className="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                </ul>
+            </div >
+            
             <section className="inicio" id="inicio">
-
-                
-<div className="area" >
-            <ul className="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
-    </div >
-
 
                 <aside className="foto-inicio_mobile-container">
                         <img 
@@ -41,7 +39,7 @@ export default function Inicio() {
                     </aside>
                 <article className="inicio-txt">
                     <span className="titulo"> Olá, meu nome é <span className="span-titulo">Caíque.</span> 🤘🏼</span>
-                    <span className="texto">Sou <span className="span-texto">desenvolvedor front-end</span> e estou constantemente aprendendo e praticando, gosto de produzir softwares bonitos e extremamente práticos.</span>
+                    <span className="texto">Sou <span className="span-texto">desenvolvedor front-end</span> e estou constantemente aprendendo e praticando, Desenvolvo interfaces modernas, práticas e de alta qualidade, concentrado em performance, animações, responsividade e SEO.</span>
 
                     <div className="btn-inicio">
                         <Link to='Contato' id='btn-inicio_contato' spy={true} smooth={true} offset={-250} duration={500}> Contato </Link>

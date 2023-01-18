@@ -25,6 +25,8 @@ import lista from './HabilidadesLista.json';
 
 // Component 
 import HabilidadesLista from '../QuemSouEu/HabilidadesLista/HabilidadesLista';
+import Experiencia from './Experiencia/Experiencia';
+import { Container } from '@mui/material';
 
 type Props = typeof lista[0];
 
@@ -39,7 +41,9 @@ const Transition = React.forwardRef(function Transition(
 
 export default function FullScreenDialog(props: Props) {
   const { title, srcImg } = props;
+
   const [open, setOpen] = React.useState(false);
+  
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -50,42 +54,48 @@ export default function FullScreenDialog(props: Props) {
   };
 
   return (
-    <div>
-      <Button endIcon={<EmojiPeopleIcon/>} id="btn-link-sobre_mim" onClick={handleClickOpen}>
-        Quem sou eu?
-      </Button>
-      <Dialog
-        fullScreen
-        open={open}
-        onClose={handleClose}
-        TransitionComponent={Transition}
-      >
+      <div>
+        <Button endIcon={<EmojiPeopleIcon/>} id="btn-link-sobre_mim" onClick={handleClickOpen}>
+          Quem sou eu?
+        </Button>
+        <Dialog
+          fullScreen
+          open={open}
+          onClose={handleClose}
+          TransitionComponent={Transition}
+        >
         <AppBar sx={{ position: 'relative' }}  id="appbar">
-            <Button autoFocus color="inherit" onClick={handleClose} startIcon={<ArrowBackOutlinedIcon/>} id="dialog-btn-voltar">
-                Voltar  
-            </Button>
+          <Button autoFocus color="inherit" onClick={handleClose} startIcon={<ArrowBackOutlinedIcon/>} id="dialog-btn-voltar">
+            Voltar  
+          </Button>
         </AppBar>
-            <main className="quem-sou-eu">
-                <section className="sobre">
-                    <article className="sobre-campo_texto">
-                        <h1 className="sobre-titulo">Olá, meu nome é <span className="sobre-titulo_span">Caíque Américo.</span></h1>
-                        <p className="sobre-texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, excepturi neque. Dolorem veritatis, aliquid corrupti numquam molestias saepe id, nostrum reprehenderit sequi officiis officia facere ab, sed voluptatum eum. Officiis.</p>
-                    </article>
-                    <aside className="sobre-img">
-                        <img 
-                        src="IMG/foto_inicio2.png"
-                        height='350'
-                        />
-                    </aside>
-                </section>
+          <main className="quem-sou-eu">
+            <section className="sobre">
+              <article className="sobre-campo_texto">
+                <h1 className="sobre-titulo">Olá, meu nome é <span className="sobre-titulo_span">Caíque Américo.</span></h1>
+                  <p className="sobre-texto">Desde cedo sou apaixonado pela comunicação artistica, sempre transmiti minhas ideias através do Graffiti, onde participei por anos de diversas atividades urbanas pela cidade do Rio de Janeiro. <br/><br/>
+                    Essa paixão pela arte me trouxe até o desenvolvimento front-end e hoje em dia não descanso até colocar meus fones de ouvido e transformar todas minhas ideias malucas em códigos. </p>
+              </article>
+              <aside className="sobre-img">
+                <img 
+                  src="IMG/foto_inicio2.png"
+                  height='350'
+                  />
+              </aside>
+            </section>
 
-              <section className="habilidade-lista">
-                <h1 className="habilidades-lista-titulo">Habilidades:</h1>
+            <section className="habilidade-lista">
+              <h1 className="habilidades-lista-titulo">Habilidades:</h1>
                 <HabilidadesLista title={title} srcImg={srcImg} />
-              </section>
-               
-            </main>
-      </Dialog>
+            </section> 
+            
+            <section className="experiencia-lista"> 
+              <h1 className="experiencias-lista-titulo">Experiências:</h1>
+              <Experiencia />
+            </section>
+
+          </main>
+        </Dialog>
     </div>
   );
 }

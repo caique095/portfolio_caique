@@ -1,0 +1,14 @@
+.experiencias-titulo{
+    color: var(--principal);
+    margin: 1rem 0;
+}
+
+.experiencias-subtitulo{
+    font-size: 1.5rem;
+}
+
+.experiencias-campo-texto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

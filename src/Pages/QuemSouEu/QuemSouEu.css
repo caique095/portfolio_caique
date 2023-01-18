@@ -1,5 +1,5 @@
 .quem-sou-eu{
-    margin: 2rem 1rem;
+    margin: 2rem .9rem;
 }
 
 #appbar{
@@ -13,9 +13,15 @@
 
 #dialog-btn-voltar{
     font-size: 1.1rem;
-    margin: 2rem 1rem;
+    margin: 1.4rem 1rem;
+    padding: 1rem;
+    position: fixed;
+    background-color: var(--principal);
 }
 
+.sobre-campo_texto{
+    margin: 0 1rem;
+}
 
 .sobre-titulo{
     font-size: 2rem;
@@ -27,15 +33,29 @@
     font-size: 2.5rem;
 }
 
-.habilidade-lista{
+.sobre-texto{
+    font-size: 1.4rem;
+    margin: 1rem 0;
+    color: #555555 ;
+}
+
+.habilidade-lista, .experiencia-lista{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.habilidades-lista-titulo{
+.habilidades-lista-titulo, .experiencias-lista-titulo{
     font-size: 2rem;
     margin: 1.5rem 0;
+}
+
+.experiencias-lista-titulo{
+    margin-top: 5rem;
+}
+
+.experiencia-lista{
+    margin: 5rem 20rem;
 }
 
 #btn-link-sobre_mim{
@@ -46,7 +66,7 @@
 }
 
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 701px) {
     .quem-sou-eu{
         margin: 0 4rem;
     }
@@ -55,7 +75,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 3rem 0;
+        margin: 3rem;
     }
 
     .sobre-titulo{
@@ -84,6 +104,9 @@
     #btn-link-sobre_mim:hover{
         color: var(--secundaria);
     }
+
+
+
 }
 
 @media only screen and (max-width: 700px) {
