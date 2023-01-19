@@ -54,8 +54,8 @@ const Tab = styled(TabUnstyled)`
   font-size: 1.2rem;
   background-color: transparent;
   width: 15vw;
-  padding: 12px;
-  margin: 6px 6px;
+  padding: .75rem;
+  margin: 0.375rem 0.375rem;
   border: none;
   border-radius: .2rem;
   display: flex;
@@ -69,7 +69,7 @@ const Tab = styled(TabUnstyled)`
 
   &:focus {
     color: ${green[800]};
-    outline: 3px solid ${black[900]};
+    outline: 1px solid ${black[900]};
   }
 
   &.${tabUnstyledClasses.selected} {
@@ -91,10 +91,10 @@ const TabPanel = styled(TabPanelUnstyled)`
 
 const TabsList = styled(TabsListUnstyled)(
   ({ theme }) => `
-  min-width: 400px;
+  min-width: 24.375rem;
   background-color: ${black[900]};
-  border-radius: .2px;
-  margin-bottom: 16px;
+  border-radius: .2rem;
+  margin-bottom: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,7 +103,7 @@ const TabsList = styled(TabsListUnstyled)(
   `,
 );
 
-export default function UnstyledTabsCustomized() {
+export default function Experiencias() {
   return (
     <TabsUnstyled defaultValue={0}>
       <TabsList>

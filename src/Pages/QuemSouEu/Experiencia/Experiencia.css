@@ -11,4 +11,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 1rem;
+}
+
+.experiencias-texto{
+    margin: 0 1rem;
 }

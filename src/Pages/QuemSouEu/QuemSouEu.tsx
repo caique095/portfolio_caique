@@ -90,8 +90,8 @@ export default function FullScreenDialog(props: Props) {
             </section> 
             
             <section className="experiencia-lista"> 
-              <h1 className="experiencias-lista-titulo">Experiências:</h1>
-              <Experiencia />
+              <h1 className="experiencias-lista-titulo">Experiências:</h1>               
+                <Experiencia />
             </section>
 
           </main>

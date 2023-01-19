@@ -88,6 +88,7 @@ export default function Projetos(props: Props) {
     useEffect(() => {
       Aos.init({ duration: 1100 });
   }, []);
+  
     const { title, srcImg, description, subtitle } = props;
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);

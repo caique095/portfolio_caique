@@ -50,13 +50,12 @@
     margin: 1.5rem 0;
 }
 
+
+
 .experiencias-lista-titulo{
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
-.experiencia-lista{
-    margin: 5rem 20rem;
-}
 
 #btn-link-sobre_mim{
     font-family: 'League Spartan', sans-serif;
@@ -105,7 +104,9 @@
         color: var(--secundaria);
     }
 
-
+    .experiencia-lista{
+        margin: 5rem 20rem;
+    }
 
 }
 
