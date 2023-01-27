@@ -32,6 +32,16 @@
     margin: 2rem 0;
 }
 
+/* #Projetos:hover{
+    transform: translateY(-10px);
+    transition: ease .3s;
+}
+
+.projetos-photo:hover{
+    transform: translateY(-10px);
+    transition: ease .3s;
+} */
+
 
 /* ===== BUTTON SAIBA MAIS ===== */
 
@@ -136,7 +146,7 @@ button {
 .modal{
     position: absolute;
     background-color: var(--bg-color);
-    width: 85%;
+    width: 90%;
     padding: 1rem;
     box-shadow: 0 12px 20px -12px rgba(0, 0, 0, 0.35);
 }
@@ -147,14 +157,12 @@ button {
 }
 
 #modal-modal-title{
-    font-size: 1.7rem;
-    margin: 2rem 0 .7rem 0;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--principal);
 }
 
 #modal-modal-text{
-    margin: 0;
     width: 100%;
 }
 
@@ -162,20 +170,27 @@ button {
     width: 100%;
 }
 
+
 #modal-btn-abrir_projeto, #modal-btn-repositorio{
     color: var(--principal);
-    padding: .8rem 1rem;
-    font-size: .8rem;
+    padding: 1rem;
+    font-size: 1rem;
     width: 100%;
     cursor: pointer;
     border-radius: .2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #modal-btn-abrir_projeto{
     transition: ease-in-out .5s;
     background-color: var(--secundaria);
     color: var(--bg-card);
-    margin: 1.5rem 0 1rem 0;
+    margin-top: 1.5rem;
 }
 
 #modal-btn-abrir_projeto:hover{
@@ -186,16 +201,36 @@ button {
 #modal-btn-repositorio{
     background-color: var(--principal);
     color: var(--bg-color);
+    margin-top: 1rem;
 }   
 
 #modal-btn-repositorio:hover{
     background-color: #202020;
 }
 
+.icon{
+    margin-left: .4rem;
+}
+
+.btn-modal_close-container{
+    display: flex;
+    justify-content:end;
+    align-items: start;
+}
+
+#btn-modal_close{
+    background-color: var(--principal) !important;
+    color: var(--bg-card);
+    margin-top: 1rem;
+}
+
+.btn-modal_close-desktop{
+    display: none !important;
+}
 
  /* ===== MEDIA QUERY =====  */
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 701px) {
     .main{
         display: flex;
         justify-content: center;
@@ -215,20 +250,38 @@ button {
     }
     
     .modal-texto{
-        margin: 0 0 0 3rem;
+        margin:0 0 0 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
     #modal-modal-title{
         font-size: 2.6rem;
-        margin: 0 0 1rem 0;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #btn-modal_close{
+        background-color: var(--principal);
+        color: white;
+        border-radius: .2rem;
+    }
+
+    #btn-modal_close:hover{
+        transform: rotate(90deg) scale(1.1);
+        transition: ease-in-out .5s;
     }
 
     .modal-btn{
         display: flex;
+        flex-direction: row;
     }
 
     #modal-btn-repositorio{
-        margin: 1.5rem 0 1rem 1rem;
+        margin: 1.5rem 0 0 1rem;
     }
     
     .card{
@@ -236,6 +289,33 @@ button {
         width: 90%;
     }
 
+    .btn-modal_container-desktop{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .btn-modal_close-container-desktop{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #btn-modal_close-mobile{
+        display: none;
+    }
+
+    .btn-modal_close-mobile{
+        display: none !important;
+    }
+
+    .btn-modal_close-desktop{
+        display: block !important;
+    }
+
+    .close-modal{
+        display: flex;
+        justify-content: end;
+    }
   
 
 }

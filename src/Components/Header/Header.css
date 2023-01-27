@@ -52,10 +52,34 @@
   cursor: pointer;
   color: var(--subtitulo);
   font-size: 1.2rem;
+
+  display: inline-block;
+  margin: 0;
 }
 
 #btn-link:hover{
   color: var(--principal);
+}
+
+
+#btn-link:after{
+  display: block;
+  content: '';
+  border-bottom: solid 2px var(--secundaria);
+  transform: scaleX(0);
+  transition: 250ms ease-in-out;
+}
+
+#btn-link:hover:after{
+  transform: scaleX(1);
+}
+
+#btn-link.fromRight:after{
+  transform-origin: 100% 50%;
+}
+
+#btn-link.fromLeft:after{
+  transform-origin: 0% 50%;
 }
 
 

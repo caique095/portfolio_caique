@@ -14,6 +14,7 @@ import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } f
 export default function Inicio() {
     return (
         <Container>
+            
             <div className="area" >
                 <ul className="circles">
                         <li></li>

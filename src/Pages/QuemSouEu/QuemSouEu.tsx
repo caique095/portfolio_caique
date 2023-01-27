@@ -1,5 +1,6 @@
 //React
 import * as React from 'react';
+import { useEffect } from 'react';
 
 // CSS
 import './QuemSouEu.css'
@@ -19,6 +20,7 @@ import Typography from '@mui/material/Typography';
 import Slide from '@mui/material/Slide';
 import { TransitionProps } from '@mui/material/transitions';
 import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
+import { Container } from '@mui/material';
 
 // JSON
 import lista from './HabilidadesLista.json';
@@ -26,7 +28,11 @@ import lista from './HabilidadesLista.json';
 // Component 
 import HabilidadesLista from '../QuemSouEu/HabilidadesLista/HabilidadesLista';
 import Experiencia from './Experiencia/Experiencia';
-import { Container } from '@mui/material';
+
+//AOS
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 type Props = typeof lista[0];
 
@@ -40,6 +46,10 @@ const Transition = React.forwardRef(function Transition(
 });
 
 export default function FullScreenDialog(props: Props) {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+}, []);
+
   const { title, srcImg } = props;
 
   const [open, setOpen] = React.useState(false);
@@ -69,11 +79,12 @@ export default function FullScreenDialog(props: Props) {
             Voltar  
           </Button>
         </AppBar>
+        <Container>
           <main className="quem-sou-eu">
             <section className="sobre">
               <article className="sobre-campo_texto">
-                <h1 className="sobre-titulo">Olá, meu nome é <span className="sobre-titulo_span">Caíque Américo.</span></h1>
-                  <p className="sobre-texto">Desde cedo sou apaixonado pela comunicação artistica, sempre transmiti minhas ideias através do Graffiti, onde participei por anos de diversas atividades urbanas pela cidade do Rio de Janeiro. <br/><br/>
+                <h1 className="sobre-titulo" >Olá, meu nome é <span className="sobre-titulo_span" data-aos="zoom-out"> Caíque Américo.</span></h1>
+                  <p className="sobre-texto">Desde cedo sou apaixonado pela comunicação artistica e sempre transmiti minhas ideias através do Graffiti, onde participei por anos de diversas atividades urbanas pela cidade do Rio de Janeiro. <br/><br/>
                     Essa paixão pela arte me trouxe até o desenvolvimento front-end e hoje em dia não descanso até colocar meus fones de ouvido e transformar todas minhas ideias malucas em códigos. </p>
               </article>
               <aside className="sobre-img">
@@ -95,6 +106,7 @@ export default function FullScreenDialog(props: Props) {
             </section>
 
           </main>
+          </Container>
         </Dialog>
     </div>
   );

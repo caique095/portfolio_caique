@@ -1,26 +1,18 @@
 [
     {
-        "title": "Projeto Um",
-        "description": "Projeto realizada em parceria com meu amorzinho e a gente se ama demais.",
-        "subtitle": "UI/UX Design",
-        "srcImg": "/IMG/1280x720.png"
+        "title": "Loja bezt.",
+        "description": "Um e-commerce desenvolvido com React.js, TypeScript, Bootstrap, as bibliotecas React Hook Form e React Router Dom e foi explorado um pouco do localStorage.",
+        "subtitle": "E-commerce",
+        "srcImg": "/IMG/Projetos/bezt/bezt_1280x720.png",
+        "url_repositorio": "https://github.com/caique095/ecommerce",
+        "url_site": "https://ecommerce-coral-beta-59.vercel.app/"
     },
     {
-        "title": "Projeto Dois",
-        "description": "Naninho e Homem aranha se aventuraram demais para a realização desse projeto.",
-        "subtitle": "UI/UX Design",
-        "srcImg": "/IMG/1280x720_mobile.png"
-    },
-    {
-        "title": "Projeto Três",
-        "description": "Naninho e Homem aranha se aventuraram demais para a realização desse projeto.",
-        "subtitle": "UI/UX Design",
-        "srcImg": "/IMG/1280x720.png"
-    },
-    {
-        "title": "Projeto Quatro",
-        "description": "Naninho e Homem aranha se aventuraram demais para a realização desse projeto.",
-        "subtitle": "UI/UX Design",
-        "srcImg": "/IMG/1280x720_mobile.png"
+        "title": "Beatriz Castello",
+        "description": "Portfólio feito para a UX Designer Beatriz Castello, projeto desenvolvido com React.js, TypeScript e Bootstrap.",
+        "subtitle": "Portfólio",
+        "srcImg": "/IMG/Projetos/portfolio_beatriz/1280x720_beatriz_castello.png",
+        "url_repositorio": "https://github.com/caique095/portfolio_beatriz",
+        "url_site": "https://portfolio-beatriz-nu.vercel.app/"
     }
 ]
