@@ -97,7 +97,7 @@ type Props = typeof projetos[0];
 
 export default function Projetos(props: Props) {
     useEffect(() => {
-      Aos.init({ duration: 1100 });
+      Aos.init({ duration: 1500 });
   }, []);
   
     const { title, srcImg, description, subtitle, url_repositorio, url_site } = props;

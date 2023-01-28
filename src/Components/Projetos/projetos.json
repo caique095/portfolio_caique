@@ -14,5 +14,23 @@
         "srcImg": "/IMG/Projetos/portfolio_beatriz/1280x720_beatriz_castello.png",
         "url_repositorio": "https://github.com/caique095/portfolio_beatriz",
         "url_site": "https://portfolio-beatriz-nu.vercel.app/"
+    },
+    {
+        "title": "Listen",
+        "description": "Programa que reproduz músicas criado em HTML 5, CSS 3 e JavaScript. ",
+        "subtitle": "App de música",
+        "srcImg": "/IMG/Projetos/listen/1280x720_listen.png",
+        "url_repositorio": "https://github.com/caique095/player_de_musica",
+        "url_site": "https://caique095.github.io/player_de_musica/"
+    },
+      {
+        "title": "Página de cadastro e login",
+        "subtitle": "Validação de formulário",
+        "description": "Página de cadastro e login desenvolvida em HTML5, CSS3 e JavaScript onde foi utilizado o localStorage para armazenar dados de cadastro.",
+        "srcImg": "/IMG/Projetos/Cadastro&Login/1280x720_cadastroElogin.png",
+        "url_repositorio": "https://github.com/caique095/cadastro-login_js",
+        "url_site": " https://caique095.github.io/cadastro-login_js/"
     }
+
+
 ]
