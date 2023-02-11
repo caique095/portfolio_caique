@@ -40,7 +40,7 @@ export default function Inicio() {
                     </aside>
                 <article className="inicio-txt">
                     <span className="titulo"> Olá, meu nome é <span className="span-titulo">Caíque.</span> 🤘🏼</span>
-                    <span className="texto">Sou <span className="span-texto">desenvolvedor front-end</span> e estou constantemente aprendendo e praticando, Desenvolvo interfaces modernas, práticas e de alta qualidade, concentrado em performance, animações, responsividade e SEO.</span>
+                    <span className="texto">Sou <span className="span-texto">desenvolvedor front-end</span> e estou constantemente aprendendo e praticando, desenvolvo interfaces modernas, práticas e de alta qualidade, concentrado em performance, responsividade e SEO.</span>
 
                     <div className="btn-inicio">
                         <Link to='Contato' id='btn-inicio_contato' spy={true} smooth={true} offset={-250} duration={500}> Contato </Link>

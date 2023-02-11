@@ -97,18 +97,10 @@ type Props = typeof projetos[0];
 
 export default function Projetos(props: Props) {
     useEffect(() => {
-      Aos.init({ duration: 1500 });
+      Aos.init({ duration: 1800 });
   }, []);
   
     const { title, srcImg, description, subtitle, url_repositorio, url_site } = props;
-    const [open, setOpen] = React.useState(false);
-    const handleOpen = () => setOpen(true);
-
-    const settings = {
-      spaceBetween: 50,
-      slidesPerview: 3,
-      navigation: true,
-    };
 
     return(
         <>
@@ -119,7 +111,7 @@ export default function Projetos(props: Props) {
             </article>
             
             <aside>
-              <img
+                <img
                 src={srcImg}
                 className="projetos-photo"
               />  

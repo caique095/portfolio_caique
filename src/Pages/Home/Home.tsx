@@ -20,6 +20,7 @@ import { Container } from '@mui/material';
 import { SwiperProps, SwiperSlide } from 'swiper/react'; 
 
 
+
 export default function Home() {
     const [title, setTitle] = useState("");
     const [description, setDescription] = useState("");
