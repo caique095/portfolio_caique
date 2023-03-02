@@ -48,15 +48,14 @@ export default function Contato() {
 
     emailjs.send("service_ouraegu", "template_4eargai", templateParams, "lA8K_DIO2o26FfIhH")
     .then((response) => {
-        setIsLoading(false);
-
+    setIsLoading(true);
         console.log("EMAIL ENVIADO", response.status, response.text)
         setName('')
         setEmail('')
         setMessage('')
+    setIsLoading(false);
     }, (erro) => {
         console.log("ERRO: ", erro)
-        setIsLoading(false);
     })
     }
 
