@@ -38,7 +38,15 @@
       "srcImg": "/IMG/Projetos/weather_api/1280x720_weather_api.png",
       "url_repositorio": "https://github.com/caique095/weather_api",
       "url_site": "https://weather-api-caique095.vercel.app/"
-  }
+  },
+  {
+    "title": "To do list.",
+    "subtitle": "App de Lista de tarefas",
+    "description": "Projeto desenvolvido em HTML5, CSS3 e JavaScript.",
+    "srcImg": "/IMG/Projetos/to_do_list/1280x720_to_do_list.png",
+    "url_repositorio": "https://github.com/caique095/to_do_list",
+    "url_site": "https://to-do-list-nine-olive.vercel.app/"  
+}
 
 
 ]
